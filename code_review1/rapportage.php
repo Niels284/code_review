@@ -1,5 +1,5 @@
 <?php
-function rapportage($subjects) {
+function rapportage(array $subjects) {
     echo '<table>
     <tr><th class="header">subject</th><th class="header">average grade</th></tr>';
     foreach($subjects as $subject => $grades) {
